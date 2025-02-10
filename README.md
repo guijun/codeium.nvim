@@ -82,6 +82,7 @@ in your default browser using the xdg-open command.
   - `portal_url`: the portal URL to use (for enterprise mode). Defaults to `host:port`
 - `enterprise_mode`: enable enterprise mode
 - `detect_proxy`: enable or disable proxy detection
+`env`: if detect_proxy is true, it will look for all_proxy,https_proxy or http_proxy which defined in env
 - `enable_chat`: enable chat functionality
 - `enable_cmp_source`: defaults to true. Set `false` to disable registering a `cmp` source
 - `virtual_text`: configuration for showing completions in virtual text

@@ -305,7 +305,7 @@ function Server:new()
 			table.insert(job_args, "--detect_proxy=" .. tostring(config.options.detect_proxy))
 		end
 
-		local job = io.job(job_args)
+		local job = io.job(job_args,config.options.env)
 		job:start()
 
 		local function start_heartbeat()

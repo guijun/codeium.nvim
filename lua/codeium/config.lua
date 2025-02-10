@@ -16,6 +16,7 @@ function M.defaults()
 		},
 		enterprise_mode = nil,
 		detect_proxy = nil,
+		env = { ["someproxy"] = "some url" },
 		tools = {},
 		wrapper = nil,
 		enable_chat = true,

@@ -253,7 +253,7 @@ function Server:new()
 		end
 
 		local function on_output(_, v, j)
-			log.debug(j.pid .. ": " .. v)
+			log.debug(j.pid .. ": " .. (v or {}))
 		end
 
 		local api_server_url = "https://"

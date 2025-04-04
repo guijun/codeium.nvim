@@ -26,6 +26,7 @@ function M.defaults()
 		search_max_workspace_file_count = 5000,
 		file_watch_max_dir_count = 50000,
 		enable_cmp_source = true,
+		mute_notify = true,
 		virtual_text = {
 			enabled = false,
 			filetypes = {},
